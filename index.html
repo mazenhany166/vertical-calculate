@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Vertical Jump Calculator</title>
+</head>
+<body>
+    <div class="calculator">
+        <h1>Vertical Jump Calculator</h1>
+        <p>Created by Mazen</p>
+        <label for="standReach">Stand Reach (in cm):</label>
+        <input type="number" id="standReach" placeholder="Enter stand reach" required>
+
+        <label for="maxJump">Max Jump (in cm):</label>
+        <input type="number" id="maxJump" placeholder="Enter max jump" required>
+
+        <button onclick="calculateVerticalJump()">Calculate Vertical Jump</button>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
